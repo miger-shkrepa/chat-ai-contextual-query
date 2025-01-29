@@ -1,0 +1,1457 @@
+{
+    "instagram_profile": {
+        "ads_information": {
+            "ads_and_topics": {
+                "ads_viewed.json": {
+                    "type": "json",
+                    "structure": {
+                        "impressions_history_ads_seen": [
+                            {
+                                "string_map_data": {
+                                    "Author": {
+                                        "value": "str"
+                                    },
+                                    "Time": {
+                                        "timestamp": "int"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                "in-app_message.json": {
+                    "type": "json",
+                    "structure": {
+                        "impressions_history_app_message": [
+                            {
+                                "string_map_data": {
+                                    "Click type": {
+                                        "value": "str"
+                                    },
+                                    "Count": {
+                                        "value": "str"
+                                    },
+                                    "In-app message name": {
+                                        "value": "str"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                "posts_viewed.json": {
+                    "type": "json",
+                    "structure": {
+                        "impressions_history_posts_seen": [
+                            {
+                                "string_map_data": {
+                                    "Author": {
+                                        "value": "str"
+                                    },
+                                    "Time": {
+                                        "timestamp": "int"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                "posts_you're_not_interested_in.json": {
+                    "type": "json",
+                    "structure": {
+                        "impressions_history_posts_not_interested": [
+                            {
+                                "string_list_data": [
+                                    {
+                                        "href": "str",
+                                        "value": "str"
+                                    },
+                                    {
+                                        "timestamp": "int"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "videos_watched.json": {
+                    "type": "json",
+                    "structure": {
+                        "impressions_history_videos_watched": [
+                            {
+                                "string_map_data": {
+                                    "Author": {
+                                        "value": "str"
+                                    },
+                                    "Time": {
+                                        "timestamp": "int"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "instagram_ads_and_businesses": {
+                "ads_about_meta.json": {
+                    "type": "json",
+                    "structure": {
+                        "media": [],
+                        "label_values": [
+                            {
+                                "ent_field_name": "str",
+                                "label": "str",
+                                "timestamp_value": "int"
+                            },
+                            {
+                                "ent_field_name": "str",
+                                "label": "str",
+                                "value": "str"
+                            }
+                        ],
+                        "fbid": "str",
+                        "ent_name": "str"
+                    }
+                },
+                "advertisers_using_your_activity_or_information.json": {
+                    "type": "json",
+                    "structure": {
+                        "ig_custom_audiences_all_types": [
+                            {
+                                "advertiser_name": "str",
+                                "has_data_file_custom_audience": "bool",
+                                "has_in_person_store_visit": "bool",
+                                "has_remarketing_custom_audience": "bool"
+                            }
+                        ]
+                    }
+                },
+                "ad_preferences.json": {
+                    "type": "json",
+                    "structure": {
+                        "media": [],
+                        "label_values": [
+                            {
+                                "dict": [
+                                    {
+                                        "dict": [
+                                            {
+                                                "ent_field_name": "str",
+                                                "label": "str",
+                                                "timestamp_value": "int"
+                                            },
+                                            {
+                                                "ent_field_name": "str",
+                                                "label": "str",
+                                                "value": "str"
+                                            }
+                                        ],
+                                        "title": "str"
+                                    }
+                                ],
+                                "title": "str"
+                            }
+                        ],
+                        "fbid": "str",
+                        "ent_name": "str"
+                    }
+                },
+                "other_categories_used_to_reach_you.json": {
+                    "type": "json",
+                    "structure": {
+                        "media": [],
+                        "label_values": [
+                            {
+                                "ent_field_name": "str",
+                                "label": "str",
+                                "vec": [
+                                    {
+                                        "value": "str"
+                                    }
+                                ]
+                            }
+                        ],
+                        "fbid": "str",
+                        "ent_name": "str"
+                    }
+                },
+                "subscription_for_no_ads.json": {
+                    "type": "json",
+                    "structure": {
+                        "media": [],
+                        "label_values": [
+                            {
+                                "ent_field_name": "str",
+                                "label": "str",
+                                "value": "str"
+                            }
+                        ],
+                        "fbid": "str",
+                        "ent_name": "str"
+                    }
+                }
+            }
+        },
+        "apps_and_websites_off_of_instagram": {
+            "apps_and_websites": {
+                "your_activity_off_meta_technologies_settings.json": {
+                    "type": "json",
+                    "structure": {
+                        "timestamp": "int",
+                        "media": [],
+                        "label_values": [
+                            {
+                                "ent_field_name": "str",
+                                "label": "str",
+                                "timestamp_value": "int"
+                            },
+                            {
+                                "ent_field_name": "str",
+                                "label": "str",
+                                "value": "str"
+                            },
+                            {
+                                "dict": [],
+                                "ent_field_name": "str",
+                                "label": "str"
+                            }
+                        ],
+                        "fbid": "str",
+                        "ent_name": "str"
+                    }
+                }
+            }
+        },
+        "connections": {
+            "contacts": {
+                "synced_contacts.json": {
+                    "type": "json",
+                    "structure": {
+                        "contacts_contact_info": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {
+                                    "Contact Information": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "First Name": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Imported Time": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Last Name": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                }
+            },
+            "followers_and_following": {
+                "followers_1.json": {
+                    "type": "json",
+                    "structure": [
+                        {
+                            "media_list_data": [],
+                            "string_list_data": [
+                                {
+                                    "href": "str",
+                                    "timestamp": "int",
+                                    "value": "str"
+                                }
+                            ],
+                            "title": "str"
+                        }
+                    ]
+                },
+                "following.json": {
+                    "type": "json",
+                    "structure": {
+                        "relationships_following": [
+                            {
+                                "media_list_data": [],
+                                "string_list_data": [
+                                    {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                ],
+                                "title": "str"
+                            }
+                        ]
+                    }
+                },
+                "follow_requests_you've_received.json": {
+                    "type": "json",
+                    "structure": {
+                        "relationships_follow_requests_received": [
+                            {
+                                "media_list_data": [],
+                                "string_list_data": [
+                                    {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                ],
+                                "title": "str"
+                            }
+                        ]
+                    }
+                },
+                "recently_unfollowed_profiles.json": {
+                    "type": "json",
+                    "structure": {
+                        "relationships_unfollowed_users": [
+                            {
+                                "media_list_data": [],
+                                "string_list_data": [
+                                    {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                ],
+                                "title": "str"
+                            }
+                        ]
+                    }
+                },
+                "recent_follow_requests.json": {
+                    "type": "json",
+                    "structure": {
+                        "relationships_permanent_follow_requests": [
+                            {
+                                "media_list_data": [],
+                                "string_list_data": [
+                                    {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                ],
+                                "title": "str"
+                            }
+                        ]
+                    }
+                },
+                "removed_suggestions.json": {
+                    "type": "json",
+                    "structure": {
+                        "relationships_dismissed_suggested_users": [
+                            {
+                                "media_list_data": [],
+                                "string_list_data": [
+                                    {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                ],
+                                "title": "str"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "media": {
+            "profile": {
+                "202212": {
+                    "image.jpg": null
+                }
+            }
+        },
+        "personal_information": {
+            "device_information": {
+                "camera_information.json": {
+                    "type": "json",
+                    "structure": {
+                        "devices_camera": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {
+                                    "Device ID": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Supported SDK Versions": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                },
+                "devices.json": {
+                    "type": "json",
+                    "structure": {
+                        "devices_devices": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {
+                                    "Last Login": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "User Agent": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                }
+            },
+            "information_about_you": {
+                "locations_of_interest.json": {
+                    "type": "json",
+                    "structure": {
+                        "media": [],
+                        "label_values": [
+                            {
+                                "ent_field_name": "str",
+                                "label": "str",
+                                "vec": [
+                                    {
+                                        "value": "str"
+                                    }
+                                ]
+                            },
+                            {
+                                "ent_field_name": "str",
+                                "label": "str",
+                                "value": "str"
+                            }
+                        ],
+                        "fbid": "str",
+                        "ent_name": "str"
+                    }
+                },
+                "profile_based_in.json": {
+                    "type": "json",
+                    "structure": {
+                        "inferred_data_primary_location": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {
+                                    "City Name": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                }
+            },
+            "personal_information": {
+                "instagram_profile_information.json": {
+                    "type": "json",
+                    "structure": {
+                        "profile_account_insights": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {
+                                    "Contact Syncing": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "First Close Friends Story Time": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "First Country Code": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "First Story Time": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Has Shared Live Video": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Last Login": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Last Logout": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Last Story Time": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                },
+                "note_interactions.json": {
+                    "type": "json",
+                    "structure": {
+                        "profile_note_interactions": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {
+                                    "Last Notes Seen Time": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                },
+                "personal_information.json": {
+                    "type": "json",
+                    "structure": {
+                        "profile_user": [
+                            {
+                                "media_map_data": {
+                                    "Profile Photo": {
+                                        "backup_uri": "str",
+                                        "creation_timestamp": "int",
+                                        "cross_post_source": {
+                                            "source_app": "str"
+                                        },
+                                        "media_metadata": {
+                                            "camera_metadata": {
+                                                "has_camera_metadata": "bool"
+                                            }
+                                        },
+                                        "title": "str",
+                                        "uri": "str"
+                                    }
+                                },
+                                "string_map_data": {
+                                    "Bio": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Date of birth": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Email": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Emoji Pong High Score": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Gender": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Name": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Phone Confirmation Method": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Phone Confirmed": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Phone Number": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Private Account": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Username": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                },
+                "professional_information.json": {
+                    "type": "json",
+                    "structure": {
+                        "profile_business": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {},
+                                "title": "str"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "preferences": {
+            "settings": {
+                "comments_allowed_from.json": {
+                    "type": "json",
+                    "structure": {
+                        "settings_allow_comments_from": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {
+                                    "Comments Allowed From": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                },
+                "notification_preferences.json": {
+                    "type": "json",
+                    "structure": {
+                        "settings_notification_preferences": [
+                            {
+                                "string_map_data": {
+                                    "Channel": {
+                                        "value": "str"
+                                    },
+                                    "Type": {
+                                        "value": "str"
+                                    },
+                                    "Value": {
+                                        "value": "str"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                "use_cross-app_messaging.json": {
+                    "type": "json",
+                    "structure": {
+                        "settings_upgraded_to_cross_app_messaging": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {
+                                    "Time Upgraded": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Upgraded To Cross-App Messaging": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                }
+            },
+            "your_topics": {
+                "recommended_topics.json": {
+                    "type": "json",
+                    "structure": {
+                        "topics_your_topics": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {
+                                    "Name": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "security_and_login_information": {
+            "login_and_profile_creation": {
+                "instagram_signup_details.json": {
+                    "type": "json",
+                    "structure": {
+                        "account_history_registration_info": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {
+                                    "Device": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Email": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "IP Address": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Phone Number": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Time": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Username": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                },
+                "last_known_location.json": {
+                    "type": "json",
+                    "structure": {
+                        "account_history_imprecise_last_known_location": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {
+                                    "GPS Time Uploaded": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Imprecise Latitude": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Imprecise Longitude": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Precise Latitude": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Precise Longitude": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                },
+                "login_activity.json": {
+                    "type": "json",
+                    "structure": {
+                        "account_history_login_history": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {
+                                    "Cookie Name": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "IP Address": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Language Code": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Time": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "User Agent": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                },
+                "logout_activity.json": {
+                    "type": "json",
+                    "structure": {
+                        "account_history_logout_history": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {
+                                    "Cookie Name": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "IP Address": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Language Code": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Time": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "User Agent": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "your_instagram_activity": {
+            "comments": {
+                "reels_comments.json": {
+                    "type": "json",
+                    "structure": {
+                        "comments_reels_comments": [
+                            {
+                                "string_map_data": {
+                                    "Comment": {
+                                        "value": "str"
+                                    },
+                                    "Media Owner": {
+                                        "value": "str"
+                                    },
+                                    "Time": {
+                                        "timestamp": "int"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "content": {
+                "profile_photos.json": {
+                    "type": "json",
+                    "structure": {
+                        "ig_profile_picture": [
+                            {
+                                "backup_uri": "str",
+                                "creation_timestamp": "int",
+                                "cross_post_source": {
+                                    "source_app": "str"
+                                },
+                                "media_metadata": {
+                                    "camera_metadata": {
+                                        "has_camera_metadata": "bool"
+                                    }
+                                },
+                                "title": "str",
+                                "uri": "str"
+                            }
+                        ]
+                    }
+                }
+            },
+            "likes": {
+                "liked_posts.json": {
+                    "type": "json",
+                    "structure": {
+                        "likes_media_likes": [
+                            {
+                                "string_list_data": [
+                                    {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                ],
+                                "title": "str"
+                            }
+                        ]
+                    }
+                }
+            },
+            "messages": {
+                "inbox": {
+                    "conversation": {
+                        "message_1.json": {
+                            "type": "json",
+                            "structure": {
+                                "participants": [
+                                    {
+                                        "name": "str"
+                                    }
+                                ],
+                                "messages": [
+                                    {
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "photos": [
+                                            {
+                                                "backup_uri": "str",
+                                                "creation_timestamp": "int",
+                                                "uri": "str"
+                                            }
+                                        ],
+                                        "reactions": [
+                                            {
+                                                "actor": "str",
+                                                "reaction": "str",
+                                                "timestamp": "int"
+                                            }
+                                        ],
+                                        "sender_name": "str",
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "content": "str",
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "reactions": [
+                                            {
+                                                "actor": "str",
+                                                "reaction": "str",
+                                                "timestamp": "int"
+                                            }
+                                        ],
+                                        "sender_name": "str",
+                                        "share": {
+                                            "link": "str",
+                                            "share_text": "str"
+                                        },
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "sender_name": "str",
+                                        "share": {
+                                            "link": "str"
+                                        },
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "content": "str",
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "sender_name": "str",
+                                        "share": {
+                                            "link": "str",
+                                            "profile_share_name": "str",
+                                            "profile_share_username": "str"
+                                        },
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "content": "str",
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "reactions": [
+                                            {
+                                                "actor": "str",
+                                                "reaction": "str",
+                                                "timestamp": "int"
+                                            }
+                                        ],
+                                        "sender_name": "str",
+                                        "share": {
+                                            "link": "str",
+                                            "original_content_owner": "str",
+                                            "share_text": "str"
+                                        },
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "photos": [
+                                            {
+                                                "uri": "str"
+                                            }
+                                        ],
+                                        "reactions": [
+                                            {
+                                                "actor": "str",
+                                                "reaction": "str",
+                                                "timestamp": "int"
+                                            }
+                                        ],
+                                        "sender_name": "str",
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "photos": [
+                                            {
+                                                "backup_uri": "str",
+                                                "creation_timestamp": "int",
+                                                "uri": "str"
+                                            }
+                                        ],
+                                        "sender_name": "str",
+                                        "timestamp_ms": "int",
+                                        "videos": [
+                                            {
+                                                "backup_uri": "str",
+                                                "creation_timestamp": "int",
+                                                "uri": "str"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "reactions": [
+                                            {
+                                                "actor": "str",
+                                                "reaction": "str",
+                                                "timestamp": "int"
+                                            }
+                                        ],
+                                        "sender_name": "str",
+                                        "share": {
+                                            "link": "str",
+                                            "original_content_owner": "str"
+                                        },
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "call_duration": "int",
+                                        "content": "str",
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "sender_name": "str",
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "sender_name": "str",
+                                        "timestamp_ms": "int",
+                                        "videos": [
+                                            {
+                                                "backup_uri": "str",
+                                                "creation_timestamp": "int",
+                                                "uri": "str"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "str",
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "sender_name": "str",
+                                        "share": {
+                                            "link": "str",
+                                            "share_text": "str"
+                                        },
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "photos": [
+                                            {
+                                                "backup_uri": "str",
+                                                "creation_timestamp": "int",
+                                                "uri": "str"
+                                            }
+                                        ],
+                                        "sender_name": "str",
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "reactions": [
+                                            {
+                                                "actor": "str",
+                                                "reaction": "str",
+                                                "timestamp": "int"
+                                            }
+                                        ],
+                                        "sender_name": "str",
+                                        "timestamp_ms": "int",
+                                        "videos": [
+                                            {
+                                                "backup_uri": "str",
+                                                "creation_timestamp": "int",
+                                                "uri": "str"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "str",
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "reactions": [
+                                            {
+                                                "actor": "str",
+                                                "reaction": "str",
+                                                "timestamp": "int"
+                                            }
+                                        ],
+                                        "sender_name": "str",
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "sender_name": "str",
+                                        "share": {
+                                            "original_content_owner": "str"
+                                        },
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "content": "str",
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "sender_name": "str",
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "content": "str",
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "sender_name": "str",
+                                        "share": {
+                                            "link": "str",
+                                            "original_content_owner": "str",
+                                            "share_text": "str"
+                                        },
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "sender_name": "str",
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "audio_files": [
+                                            {
+                                                "creation_timestamp": "int",
+                                                "uri": "str"
+                                            }
+                                        ],
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "sender_name": "str",
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "reactions": [
+                                            {
+                                                "actor": "str",
+                                                "reaction": "str",
+                                                "timestamp": "int"
+                                            }
+                                        ],
+                                        "sender_name": "str",
+                                        "share": {
+                                            "original_content_owner": "str"
+                                        },
+                                        "timestamp_ms": "int"
+                                    },
+                                    {
+                                        "is_geoblocked_for_viewer": "bool",
+                                        "is_unsent_image_by_messenger_kid_parent": "bool",
+                                        "sender_name": "str",
+                                        "share": {
+                                            "link": "str",
+                                            "original_content_owner": "str"
+                                        },
+                                        "timestamp_ms": "int"
+                                    }
+                                ],
+                                "title": "str",
+                                "is_still_participant": "bool",
+                                "thread_path": "str",
+                                "magic_words": [],
+                                "image": {
+                                    "uri": "str",
+                                    "creation_timestamp": "int",
+                                    "backup_uri": "str"
+                                },
+                                "joinable_mode": {
+                                    "mode": "int",
+                                    "link": "str"
+                                }
+                            }
+                        }
+                    }
+                },
+                "photos": {
+                    "image.jpg": null
+                },
+                "secret_conversations.json": {
+                    "type": "json",
+                    "structure": {
+                        "ig_secret_conversations": {
+                            "armadillo_devices": [
+                                {
+                                    "device_manufacturer": "str",
+                                    "device_model": "str",
+                                    "device_os_version": "str",
+                                    "device_type": "str",
+                                    "last_active_time": "int",
+                                    "last_connected_ip": "str"
+                                }
+                            ],
+                            "calls": []
+                        }
+                    }
+                }
+            },
+            "monetization": {
+                "eligibility.json": {
+                    "type": "json",
+                    "structure": {
+                        "monetization_eligibility": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {
+                                    "Decision": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Product Name": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    },
+                                    "Reason": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                }
+            },
+            "other_activity": {
+                "your_information_download_requests.json": {
+                    "type": "json",
+                    "structure": {
+                        "timestamp": "int",
+                        "media": [],
+                        "label_values": [
+                            {
+                                "ent_field_name": "str",
+                                "label": "str"
+                            },
+                            {
+                                "ent_field_name": "str",
+                                "label": "str",
+                                "timestamp_value": "int"
+                            },
+                            {
+                                "ent_field_name": "str",
+                                "label": "str",
+                                "value": "str"
+                            },
+                            {
+                                "ent_field_name": "str",
+                                "label": "str",
+                                "vec": []
+                            }
+                        ],
+                        "fbid": "str",
+                        "ent_name": "str"
+                    }
+                }
+            },
+            "saved": {
+                "saved_posts.json": {
+                    "type": "json",
+                    "structure": {
+                        "saved_saved_media": [
+                            {
+                                "string_map_data": {
+                                    "Saved on": {
+                                        "href": "str",
+                                        "timestamp": "int"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                }
+            },
+            "story_sticker_interactions": {
+                "polls.json": {
+                    "type": "json",
+                    "structure": {
+                        "story_activities_polls": [
+                            {
+                                "string_list_data": [
+                                    {
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                ],
+                                "title": "str"
+                            }
+                        ]
+                    }
+                },
+                "questions.json": {
+                    "type": "json",
+                    "structure": {
+                        "story_activities_questions": [
+                            {
+                                "media_list_data": [],
+                                "string_list_data": [
+                                    {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                ],
+                                "title": "str"
+                            }
+                        ]
+                    }
+                },
+                "story_likes.json": {
+                    "type": "json",
+                    "structure": {
+                        "story_activities_story_likes": [
+                            {
+                                "string_list_data": [
+                                    {
+                                        "timestamp": "int"
+                                    }
+                                ],
+                                "title": "str"
+                            }
+                        ]
+                    }
+                }
+            },
+            "subscriptions": {
+                "show_exclusive_story_promo_setting.json": {
+                    "type": "json",
+                    "structure": {
+                        "subscriptions_show_story_teaser_setting": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {
+                                    "Exclusive Story Promo Setting": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                },
+                "your_muted_story_teaser_creators.json": {
+                    "type": "json",
+                    "structure": {
+                        "subscriptions_muted_story_teaser_creators": [
+                            {
+                                "media_map_data": {},
+                                "string_map_data": {
+                                    "Muted Creators": {
+                                        "href": "str",
+                                        "timestamp": "int",
+                                        "value": "str"
+                                    }
+                                },
+                                "title": "str"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

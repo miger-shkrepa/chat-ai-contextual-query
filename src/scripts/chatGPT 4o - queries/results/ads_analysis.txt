@@ -1,0 +1,20 @@
+Advertisement Analysis:
+
+Company Name | Number of Ads Seen
+-------------------------------
+albagame.videogames | 5
+3v.fejzo_rrugaekavajes | 7
+temu | 4
+funkycabin2021 | 1
+celular.al | 2
+dominusoft_education | 2
+shoptemu | 6
+temu_svn | 3
+evonycommunity | 1
+decone_mall | 2
+philips.albania | 1
+sdabyprotik | 1
+ina_inktoxicated_tattoo_studio | 2
+newyorkermag | 1
+vlera_art | 1
+tona.al | 1

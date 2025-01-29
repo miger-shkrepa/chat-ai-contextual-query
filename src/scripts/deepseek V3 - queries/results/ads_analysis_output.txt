@@ -1,0 +1,22 @@
+Advertisement Analysis:
+=======================
+
+Frequency of Ads Viewed (by Company):
+- albagame.videogames: 5 ads
+- 3v.fejzo_rrugaekavajes: 7 ads
+- temu: 4 ads
+- funkycabin2021: 1 ads
+- celular.al: 2 ads
+- dominusoft_education: 2 ads
+- shoptemu: 6 ads
+- temu_svn: 3 ads
+- evonycommunity: 1 ads
+- decone_mall: 2 ads
+- philips.albania: 1 ads
+- sdabyprotik: 1 ads
+- ina_inktoxicated_tattoo_studio: 2 ads
+- newyorkermag: 1 ads
+- vlera_art: 1 ads
+- tona.al: 1 ads
+
+Topics Associated with Ads (by Company):
